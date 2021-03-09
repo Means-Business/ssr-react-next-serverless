@@ -1,0 +1,12 @@
+{
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "window.zoomLevel": 0,
+  "cSpell.ignoreWords": [
+    "alexa",
+    "apigw",
+    "binary",
+    "serverless",
+    "skill"
+  ]
+}
