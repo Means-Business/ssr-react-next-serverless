@@ -1,15 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'react-optimized-image';
-import MyLogo from '../public/images/bunchee-online-logo2.svg';
 
 const Navbar = () => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <Image src={MyLogo} alt="MooCoding Logo" width={30} height={30} />
-          <span className="ml-3 text-xl">MooCoding</span>
+          <img
+            src="https://assets.means-business.com/bunchee-online-logo2.svg"
+            width="30"
+            height="30"
+            alt="MooCoding Logo"
+          />
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <Link href="/">
