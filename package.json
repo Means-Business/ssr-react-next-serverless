@@ -9,19 +9,34 @@
     "start": "next start",
     "deploy": "next build && sls deploy"
   },
-  "keywords": ["Serverless", "NextJS", "ReactJS", "AWS"],
+  "keywords": [
+    "Serverless",
+    "NextJS",
+    "ReactJS",
+    "AWS"
+  ],
   "author": "Manot Luijiu",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
+    "imagemin-mozjpeg": "^9.0.0",
     "next": "^10.0.8",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^3.0.0-canary.10",
     "path-match": "^1.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "responsive-loader": "^2.3.0",
     "serverless-apigw-binary": "^0.4.4",
     "serverless-domain-manager": "^5.1.0",
     "serverless-http": "^2.7.0",
+    "sharp": "^0.27.2",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
   }
 }
