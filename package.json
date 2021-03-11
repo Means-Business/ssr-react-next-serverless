@@ -10,7 +10,8 @@
     "deploy": "next build && sls deploy"
   },
   "keywords": [
-    "Serverless",
+    "Heroku",
+    "ExpressJS",
     "NextJS",
     "ReactJS",
     "AWS"
