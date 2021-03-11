@@ -69,7 +69,9 @@ function Toggle() {
 
   return (
     <div className="flex flex-wrap space-x-2">
-      <button onClick={setOff}>กลางวัน</button>
+      <button className="dark:text-gray-300" onClick={setOff}>
+        กลางวัน
+      </button>
       {/* {tooManyClicks ? (
         <button onClick={() => setClicksSinceReset(0)}>Reset</button>
       ) : null} */}
@@ -82,7 +84,9 @@ function Toggle() {
         on={on}
       />
 
-      <button onClick={setOn}>กลางคืน</button>
+      <button className="dark:text-gray-300" onClick={setOn}>
+        กลางคืน
+      </button>
     </div>
   );
 }
