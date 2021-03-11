@@ -27,7 +27,7 @@ class DogsPage extends Component {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 dark:text-gray-300">
               OUR TEAM
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -58,7 +58,7 @@ class DogsPage extends Component {
                     pack vaporware.
                   </p>
                   <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                    <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <span className="text-gray-400 dark:text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                       <svg
                         className="w-4 h-4 mr-1"
                         stroke="currentColor"
@@ -73,7 +73,7 @@ class DogsPage extends Component {
                       </svg>
                       1.2K
                     </span>
-                    <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <span className="text-gray-400 dark:text-gray-500 inline-flex items-center leading-none text-sm">
                       <svg
                         className="w-4 h-4 mr-1"
                         stroke="currentColor"

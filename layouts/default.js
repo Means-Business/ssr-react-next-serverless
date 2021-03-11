@@ -1,6 +1,6 @@
 import React from 'react';
-import Meta from '../components/meta';
-import Navbar from '../components/navbar';
+import Meta from '../components/Meta';
+import Navbar from '../components/Navbar';
 
 const Layout = ({ children, meta }) => {
   return (
